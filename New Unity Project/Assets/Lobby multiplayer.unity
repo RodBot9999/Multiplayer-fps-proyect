@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 1335975469}
   - component: {fileID: 1335975467}
   - component: {fileID: 1335975466}
+  - component: {fileID: 1335975470}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -232,14 +233,30 @@ MonoBehaviour:
   transport: {fileID: 1335975467}
   networkAddress: localhost
   maxConnections: 4
-  disconnectInactiveConnections: 0
+  disconnectInactiveConnections: 1
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 8594497004503555593, guid: 2ed9f9ae82cc8dc46bf83ebc045c1e12,
+  playerPrefab: {fileID: 908781562293630029, guid: 02d40b2414d3e204a935f1732bbb2bcd,
     type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs: []
+--- !u!114 &1335975470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335975465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc654f29862fc2643b948f772ebb9e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showPing: 1
+  position: {x: 200, y: 0}
+  fontSize: 24
+  textColor: {r: 1, g: 1, b: 1, a: 0.3137255}
 --- !u!1 &1757292033
 GameObject:
   m_ObjectHideFlags: 0

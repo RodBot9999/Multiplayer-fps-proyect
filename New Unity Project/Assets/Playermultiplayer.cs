@@ -58,8 +58,9 @@ public class Playermultiplayer : NetworkBehaviour {
 
     
     private void FixedUpdate() {
-        if(!isLocalPlayer)
+        if(isLocalPlayer)
         {
+            Debug.Log("<;");
          return;
         }
          Movement();
