@@ -58,7 +58,7 @@ public class Playermultiplayer : NetworkBehaviour {
 
     
     private void FixedUpdate() {
-        if(!isLocalPlayer)
+        if(hasAuthority)
         {
             Debug.Log("<;");
          return;
